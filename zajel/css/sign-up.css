@@ -1,0 +1,137 @@
+
+.main .sign-up
+{
+    background:none
+}
+
+.main .sign-up ul
+{
+    list-style:none;
+    margin:12px 30px;
+}
+
+.main .sign-up ul li
+{
+    display:inline-block;
+    padding:5px;
+    width:190px;
+    border:1px solid #000;
+    font-weight:bold;
+    margin-left:12px;
+}
+
+.main .sign-up table
+{
+    border:1px solid #000;
+    margin-right:30px;
+    margin-bottom:10px;
+    
+}
+
+.main .sign-up table.one caption
+{
+    border:1px solid #000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    padding:5px;
+    background-color:#f1f1f1;
+}
+
+.main .sign-up table.one caption .trash
+{
+    float:right
+}
+
+.main .sign-up table.one caption h3
+{
+    display:inline-block;
+    margin-top:5px;
+}
+
+.main .sign-up table td
+{
+    border:1px solid #000;
+    padding:10px;
+    text-align:center
+}
+
+.main .sign-up table thead td
+{
+    font-weight:bold
+}
+
+.main .sign-up table.one thead td:nth-of-type(odd)
+{
+    background-color:#dbe3f3
+}
+
+.main .sign-up table.one thead td:nth-of-type(even)
+{
+    background-color:#fae4d6
+}
+
+.main .sign-up table.two tbody tr:nth-of-type(1), .main .sign-up table.two tbody tr:nth-of-type(2)
+{
+    background-color:#aaa
+}
+
+.main .sign-up table.two tbody tr:nth-of-type(3)
+{
+    background-color:#dbe3f3
+}
+
+.main .sign-up table.two tbody tr:nth-of-type(4)
+{
+      background-color:#fae4d6
+}
+
+.main .two img 
+{
+    width:20px;
+}
+.main .sign-up table.three
+{
+    position:absolute;
+    bottom:0px;
+    right:471px;
+}
+
+.main .sign-up table.three thead td
+{
+    background-color:#7e7e7e;
+    width:88px;
+}
+
+.main .sign-up table.three tbody td
+{
+    background-color:#cfcdcd
+}
+
+.display-none 
+{
+    display:none;
+}
+
+.inside-table 
+{
+    display:none;
+    position: absolute;
+    left: 240px;
+    bottom: 92px;
+    z-index:1;
+}
+.inside-table tr
+{
+    background:#e2f0d8 !important;
+}
+
+.inside-table td 
+{
+    width:150px;
+}
+
+.three 
+{
+    display:none;
+}

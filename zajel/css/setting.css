@@ -1,0 +1,45 @@
+
+.main .info .setting .position
+{
+    position:absolute;
+    left:0;
+    top:0;
+    padding-top:10px
+}
+
+.main .info .setting .position button.one, .main .info .setting .position button.two
+{
+    position:absolute;
+    left:50px;
+    top:15px;
+    padding:8px;
+    font-weight:bold;
+    width:160px;
+    text-align:center;
+    font-size:18px;
+    border-radius:10px;
+    border:1px solid #000;
+}
+
+.main .info .setting .position img
+{
+    display:block;
+    margin-bottom:12px;
+}
+
+.main .info .setting .position button.two
+{
+    top:70px;
+}
+
+.group 
+{
+    text-align: center;;
+}
+
+input[type=submit]
+{
+    font-size: 24px;
+    font-weight: bold;
+
+}

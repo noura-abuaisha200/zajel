@@ -1,0 +1,38 @@
+.main .info 
+{
+    background:none 
+}
+
+.main .info .grades .c
+{
+    font-size:18px;
+    color:#fff;
+    background-color:#7e7e7e;
+    padding:8px;
+    margin-right:6px;
+    margin-top:10px
+}
+
+.main .info .grades table
+{
+    border:1px solid #000;
+    margin:20px auto
+}
+
+.main .info .grades table td
+{
+    border:1px solid #000;
+    text-align:center;
+    padding:13px;
+    font-weight:bold;
+    font-size:18px
+}
+
+.main .info .grades .b
+{
+    display:block;
+    margin:auto;
+    margin-bottom:5px;
+    padding:7px;
+    font-weight:bold
+}

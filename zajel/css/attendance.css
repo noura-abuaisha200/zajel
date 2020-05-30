@@ -1,0 +1,82 @@
+
+.main .info 
+{
+    background:none 
+}
+
+.main .info .attendance label
+{
+    font-size:18px;
+    font-weight:bold;
+    display:inline-block;
+    margin:20px
+}
+
+.main .info .attendance select
+{
+    width:100px
+}
+
+.main .info .attendance table
+{
+    border:1px solid #000;
+    margin:15px auto;
+    border-radius:10px;  
+}
+
+.main .info .attendance table td
+{
+    padding:12px;
+    border:1px solid #000;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    border-radius:10px;
+}
+
+.main .info .attendance table thead tr td
+{
+    background-color:#585858;
+    color:#fff    
+}
+
+.main .info .attendance table tbody tr:nth-of-type(1), .main .info table tbody tr:nth-of-type(3)
+{
+    background-color:#d5dbe3
+}
+
+.main .info .attendance table tbody tr:nth-of-type(2)
+{
+    background-color:#fff3cd
+}
+
+.main .info .attendance table tbody tr:nth-of-type(4)
+{
+    background-color:#fbe5d7
+}
+
+.main .info .attendance span
+{
+    font-weight:bold;
+    font-size:18px
+}
+
+.main .info .attendance span:nth-of-type(1)
+{
+    position:absolute;
+    top:140px;
+    right:170px
+}
+.main .info .attendance span:nth-of-type(2)
+{
+    position:absolute;
+    top:190px;
+    right:120px
+}
+
+.main .info .attendance span:nth-of-type(3)
+{
+    position:absolute;
+    top:286px;
+    right:170px
+}

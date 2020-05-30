@@ -1,0 +1,3 @@
+function getInsideTable() {
+    alert('s');
+}

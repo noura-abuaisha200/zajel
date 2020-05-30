@@ -1,0 +1,146 @@
+
+.main .info .study-plan ul
+{
+    list-style:none;
+    margin-top:20px
+}
+
+.main .info .study-plan ul li
+{
+    display:inline-block;
+    margin-right:8px;
+    margin-left:10px;
+    border:1.3px solid #000;
+    width:236px;
+    padding:5px;
+}
+
+.main .info .study-plan table
+{
+    margin-top:25px;
+    margin-right:20px
+}
+
+.main .info .study-plan table thead td , .main .info .study-plan table .one
+{
+    background-color:#b2b2b2;
+}
+
+.main .info .study-plan table td
+{
+    border:1.2px solid #000;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+    padding:9px
+}
+
+.main .info .study-plan button.one
+{
+    margin:16px 20px;
+    padding:12px;
+    background-color:#b2b2b2;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:5px;
+    width:300px;
+    text-align:center;
+    border:1.2px solid #000
+}
+
+
+/* Div 2  */
+
+.main .t
+{
+    background:none
+}
+.study-plan-1 
+{
+    position: relative;
+    bottom: 400px;
+}
+ .study-plan-1 ul.one
+{
+    list-style:none;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.study-plan-1 ul.one li
+{
+    display:inline-block;
+    margin-right:8px;
+    margin-left:10px;
+    border:1.3px solid #000;
+    width:236px;
+    padding:5px;
+}
+
+ .study-plan-1 ul.two
+{
+    list-style:none;
+    width:658px;
+    background-color:#f2f4f7;
+    margin-bottom:20px;
+}
+
+.study-plan-1 ul.two li
+{
+    display:inline-block;
+    margin-right:12px;
+    margin-left:14px;
+    margin-bottom:10px;
+    font-weight:bold
+}
+.study-plan-1 table
+{
+    margin-right:15px;
+}
+
+.study-plan-1 table thead td
+{
+    font-weight:bold
+}
+
+ .study-plan-1 table td
+{
+    border: 1.3px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Table 2 */
+
+ .study-plan-1 table.two
+{
+    margin-right: 312px;
+    margin-top: -91px;
+    display:none;
+}
+
+.study-plan-1 table.three
+{
+    margin-right:510px;
+    margin-top:-110px;
+}
+
+.study-plan-1 table.four
+{
+    margin-right:880px;
+    margin-top:-60px;
+}
+
+
+.main .must 
+{
+    cursor:pointer;
+}
+
+.study-plan-1 
+{
+    display:none;
+}

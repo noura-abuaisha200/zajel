@@ -1,0 +1,279 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    direction:rtl;
+    text-align:right;
+}
+
+body
+{
+    direction:rtl;
+    text-align:right;
+    margin-top:-42px;
+}
+
+.container
+{
+    width:1200px;
+    margin:auto;
+}
+
+.main
+{
+    border:1px solid #ccc;
+    margin-top:40px;
+    border-radius:8px;
+    margin-bottom:15px;
+    position:relative;
+    overflow:hidden
+}
+
+.main > h1
+{
+    background-color:#2a577f;
+    padding:6px 180px 6px 0;
+    color:#fff
+}
+
+.main .navbar
+{
+    min-height:100px;
+    background-color:#5982a6;
+    padding:8px 180px 0 150px;
+}
+
+.main .navbar ul
+{
+    list-style:none;
+}
+
+.main .navbar ul li
+{
+    display:inline-block;
+    background-color:#c7d0d8;
+    padding:4px;
+    margin-bottom:5px
+}
+
+.main .navbar ul li a
+{
+    text-decoration:none;
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.main .right-img
+{
+    position:absolute;
+    top:0
+}
+
+.main .left-img
+{
+    position:absolute;
+    top:0;
+    left:0
+}
+
+.main .info
+{
+    position:relative;
+    min-height:420px;
+    background:url('../images/image2.jpg') no-repeat;
+    background-size:100% 400px
+}
+
+.main .info .messages
+{
+    position:absolute;
+    left:0; 
+    cursor: pointer;
+}
+
+.main .info .wifi
+{
+    position:absolute;
+    bottom:0
+}
+
+.main .info .messages-block
+{
+    position:absolute;
+    bottom:0;
+    left:0px;
+    cursor: pointer;
+}
+
+.main .info .bell
+{
+    position:absolute;
+    left:50px;
+    bottom:67px
+}
+
+.main .info .hand
+{
+    display:block;
+    margin:10px auto 0
+}
+
+.main .info .section
+{
+    width:540px;
+    height:250px;
+    position:absolute;
+    top:50px;
+}
+
+.main .info .section .right, .main .info .section .left
+{
+    float:right;
+}
+
+.main .info .section .right
+{
+    width:23%;
+    padding-right:8px;
+    position:relative;
+}
+
+.main .info .section .left
+{
+    width:77%;
+}
+
+.main .info .section .right i
+{
+    font-size:34px; 
+    position:absolute;
+    bottom:13px;
+    right:17px; 
+}
+
+.main .info .section .left form
+{
+    padding-top:30px;
+    width:400px
+}
+
+.main .info .section .left .group
+{
+    background-color:#eceff2;
+    margin-bottom:16px;
+}
+
+.main .info .section .left .group label
+{
+    font-size:24px;
+    font-weight:bold;
+    padding-right:8px;
+}
+
+.main .info .section .left .group input
+{
+    width:265px;
+    height:40px;
+    border:none;
+    padding-right:5px;
+    background-color:transparent
+}
+
+.main .info .section .left p
+{
+    text-align:center;
+    font-size:21px;
+    font-weight:bold;
+    margin-top:25px;
+}
+
+/* Div-2 */
+
+.text-messages
+{
+    background:none;
+}
+
+.text-messages .pointer
+{
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+
+.text-area
+{
+    display:none;
+   width:331px;
+    padding:20px;
+    position:absolute;
+    top:225px;
+    left:100px;
+    border:1px solid #ccc
+}
+
+.text-area textarea
+{
+    margin-top:20px;
+    display:block;
+    width:80%
+}
+
+ .text-area img
+{
+    position:absolute;
+    top:30px;
+    left:30px
+}
+
+ .text-area .img-two
+{
+    position:absolute;
+    top:106px;
+    left:30px;
+}
+
+ .text-messages .text-area input
+{
+    width:80px
+}
+
+
+/* Div-3  */
+
+.advertising
+{
+    background:none !important;
+    display:none;
+}
+
+ .advertising .pointer
+{
+    position:absolute;
+    bottom:0;
+    left:75px;
+}
+
+.advertising ul
+{
+    position:absolute;
+    bottom:60px;
+    left:100px;
+    list-style:none;
+}
+.advertising ul li
+{
+    border:1px solid #000;
+    font-weight:bold;
+    padding:5px;
+    width:160px;
+    text-align:center;
+    border-radius:8px;
+    font-size:18px;
+    margin-bottom:7px;
+    background-color:#f3f3f3
+}
+
+
